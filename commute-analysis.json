@@ -1,0 +1,148 @@
+{
+  "commute": {
+    "origin": {
+      "address": "45 Oak Avenue, Boulder, Colorado",
+      "coordinates": {
+        "latitude": 40.0448805,
+        "longitude": -105.2738879
+      }
+    },
+    "destination": {
+      "address": "1800 Broadway, Boulder, Colorado",
+      "coordinates": {
+        "latitude": 40.0163281,
+        "longitude": -105.2789726
+      }
+    },
+    "distance_km": 4.03,
+    "distance_miles": 2.5,
+    "analysis_date": "2025-01-01",
+    "data_source": "OpenStreetMap"
+  },
+  "modes": [
+    {
+      "mode": "walking",
+      "icon": "🚶",
+      "distance_km": 4.03,
+      "distance_miles": 2.5,
+      "estimated_duration_minutes": 48,
+      "estimated_duration_formatted": "~48 minutes",
+      "average_speed_kmh": 5.0,
+      "terrain": "mostly flat",
+      "co2_saved_per_trip_kg": 0.8,
+      "co2_saved_per_year_kg_5trips": 400,
+      "directions": [
+        {
+          "step": 1,
+          "street": "Oak Avenue",
+          "distance_m": 97,
+          "instruction": "Head south on Oak Avenue from 45 Oak Avenue"
+        },
+        {
+          "step": 2,
+          "street": "19th Street",
+          "distance_m": 2157,
+          "instruction": "Continue onto 19th Street — main north-south corridor through the university area"
+        },
+        {
+          "step": 3,
+          "street": "20th Street",
+          "distance_m": 106,
+          "instruction": "Turn onto 20th St./20th Street — quiet residential-friendly street"
+        },
+        {
+          "step": 4,
+          "street": "20th Street",
+          "distance_m": 566,
+          "instruction": "Continue on 20th Street toward downtown"
+        },
+        {
+          "step": 5,
+          "street": "Pearl Street",
+          "distance_m": 216,
+          "instruction": "Merge onto Pearl Street — Boulder's vibrant downtown main street"
+        },
+        {
+          "step": 6,
+          "street": "18th Street",
+          "distance_m": 249,
+          "instruction": "Continue on 18th Street through the heart of downtown"
+        },
+        {
+          "step": 7,
+          "street": "Canyon Boulevard",
+          "distance_m": 637,
+          "instruction": "Turn onto Canyon Boulevard — major Boulder artery with wide sidewalks"
+        },
+        {
+          "step": 8,
+          "street": "Canyon Boulevard",
+          "distance_m": 0,
+          "instruction": "Arrive at 1800 Broadway near the Canyon Boulevard intersection"
+        }
+      ]
+    },
+    {
+      "mode": "biking",
+      "icon": "🚲",
+      "distance_km": 4.03,
+      "distance_miles": 2.5,
+      "estimated_duration_minutes": 16,
+      "estimated_duration_formatted": "~16 minutes",
+      "average_speed_kmh": 15.1,
+      "terrain": "mostly flat",
+      "co2_saved_per_trip_kg": 0.7,
+      "co2_saved_per_year_kg_5trips": 350,
+      "directions": [
+        {
+          "step": 1,
+          "street": "Oak Avenue",
+          "distance_m": 97,
+          "instruction": "Head south on Oak Avenue from 45 Oak Avenue"
+        },
+        {
+          "step": 2,
+          "street": "19th Street",
+          "distance_m": 2157,
+          "instruction": "Continue onto 19th Street — use designated bike lanes"
+        },
+        {
+          "step": 3,
+          "street": "20th Street",
+          "distance_m": 106,
+          "instruction": "Turn onto 20th St./20th Street — bike-friendly, low traffic"
+        },
+        {
+          "step": 4,
+          "street": "20th Street",
+          "distance_m": 566,
+          "instruction": "Continue on 20th Street toward downtown"
+        },
+        {
+          "step": 5,
+          "street": "Pearl Street",
+          "distance_m": 216,
+          "instruction": "Merge onto Pearl Street — use bike lane alongside pedestrian traffic"
+        },
+        {
+          "step": 6,
+          "street": "18th Street",
+          "distance_m": 249,
+          "instruction": "Continue on 18th Street through downtown"
+        },
+        {
+          "step": 7,
+          "street": "Canyon Boulevard",
+          "distance_m": 637,
+          "instruction": "Turn onto Canyon Boulevard — wide multi-use bike path"
+        },
+        {
+          "step": 8,
+          "street": "Canyon Boulevard",
+          "distance_m": 0,
+          "instruction": "Arrive at 1800 Broadway near the Canyon Boulevard intersection"
+        }
+      ]
+    }
+  ]
+}
